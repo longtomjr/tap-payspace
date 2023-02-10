@@ -45,5 +45,5 @@ class LeaveApplicationsStream(payspaceStream):
         th.Property("NoOfDays", th.NumberType),
         th.Property("LeaveStartDate", th.DateTimeType),
         th.Property("LeaveEndDate", th.DateTimeType),
-        th.Property("LeaveStatus", th.BooleanType),
+        th.Property("LeaveStatus", th.StringType),
     ).to_dict()
